@@ -3,38 +3,68 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title> ZADANIE FORMULARZ </title>
-</head>
-<body bgcolor="#87CEFA">
-<center><h1> Formularz o.................zaproponowany przez nauczyciela</h1></center>
+<title><center><h1> Formularz o ankiecie do olimpiady językowej</h1></center></title>
 <form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post">
-<TABLE>
-<TR height="100">
-<TD width="500">
-<b>Imię</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="imie" size="22">
+  <br>
+   <TD width="100">
+    <b>1. Imię i nazwisko</b> <input name="imie i nazwisko" size="22">
+    <br><br>
+    <TD width="100"> 
+<right><font size="5"><b>8. Województwo</b></font></right><br>
+ <right><select>
+ <option value="Pomorski">Pomorskie</option>
+ <option value="Zachodnio Pomorskie">Zachodnio Pomorskie</option>
+ <option value="Kujawsko Pomorskie">Kujawsko Pomorskie</option>
+ <option value="Świetokrzyskie"> Swiętokrzyskie</option>
+ <option value="Sląskie"> Sląskie </option>
+ <option value="Małopolskie"> Małopolskie </option>
+ <option value="Mazowieckie"> Mazowieckie </option>
+ <option value="Wielkopolskie"> Wielkopolskie </option>
+ </select> </right>
+ </TD>
+    <br><br><br>
+    <b>2. Adres gmail</b> <input name="@gmail.com" size="22">                                                                    
+    <br><br>
+    <b>3. Adres zamieszkiwania</b> <input name="Adres zamieszkiwania" size="22">
+    <br><br>
+    <b>4 Numer Telefonu (maks. 9 cyfr)</b> <input name="4 Numer Telefonu (maks. 9 cyfr)" size="22">
+    <br><br>
+    <TD width="100">5.Jaki język dobrze znasz?
+    <br><br>
+    <input type="checkbox" name="język" value="k"> Angielski
+    <br><br>
+    <input type="checkbox" name="język" value="m"> Niemiecki
+    <br><br>
+    <input type="checkbox" name="język" value="m"> Chiński
+    <br><br>
+    <input type="checkbox" name="język" value="inna"> INNE
+    <br><br><br>
+    <TD width="100">6. Ile lat uczysz ten język?
+    <br><br>
+    <input type="radio" name="Liczba" value="1"> 1 rok
+    <br><br>
+    <input type="radio" name="Liczba" value="2"> 2 lata
+    <br><br>
+    <input type="radio" name="Liczba" value="3"> 3 lata
+    <br><br>
+    <input type="radio" name="Liczba" value="4"> 4 lata
+     <br><br>
+    <input type="radio" name="Liczba" value="5"> 5 lat
+    <br><br>
+     <input type="radio" name="Liczba" value="inne"> więcej niż wymienione
+    <br><br><br>
+     <nobr>7. Napisz dodatkowe informacje<br> o sobie (Maks. 150)<br>znaków</nobr>
+     <br><br>
+     <input name="komentarz" cols="50" rows="10" size="65" maxlength="150">
+     </TD>
+     </TR>
+     <TR height="200">
+      <br><br><br>
+ <input type="submit" value="Wyślij formularz">
+<input type="reset" value="Wyczyść dane">
+</div></form>
+<button type="button"><a href="tabela_czerczon.html"> tabela </A></button><br><br>
+<button type="submit"><a href="index.html"> wróć </A></button>
 <br><br>
-<b>Drugie imię</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-&nbsp &nbsp &nbsp &nbsp <input name="drugie" size="22">
-<br><br>
-<b>Nazwisko </b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="nazwisko" size="22">
-<br><br>
-<b>Pseudonim artystyczny</b>&nbsp &nbsp<input name="login" size="22"><nobr> <br>
-</TD>
-<TD width="300" >komórka2 </TD>
-<TD width="500">komórka3 </TD>
-</TR>
-<TR height="200">
-<TD>jeden </TD>
-<TD> A </TD>
-<TD> pierwszy </TD>
-</TR>
-<TR height="400">
-<TD>dwa </TD>
-<TD> B </TD>
-<TD> drugi </TD>
-</TR>
-</TABLE>
-</form>
 </body>
 </html>
