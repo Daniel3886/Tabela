@@ -4,14 +4,25 @@
 <head>
 <meta charset="utf-8">
 <title>Formularz o ankiecie do olimpiady językowej</title>
+<style>
+.wojewodztwo{
+  width: 100vw;
+  text-align: right;
+  }
+  .wojewodztwo > span{
+    margin-right:2vw;
+    font-size: 2vw;
+    font-weight: bold;
+  }
 <form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post">
   <br>
    <TD width="100">
     <b>1. Imię i nazwisko</b> <input name="imie i nazwisko" size="22">
     <br><br>
     <TD width="100"> 
-<right><font size="5"><b>8. Województwo</b></font></right><br>
- <right><select>
+      
+ <div class="wojewodztwo"><span> 8.wojewodztwo</span>
+ <select>
  <option value="Pomorski">Pomorskie</option>
  <option value="Zachodnio Pomorskie">Zachodnio Pomorskie</option>
  <option value="Kujawsko Pomorskie">Kujawsko Pomorskie</option>
@@ -20,7 +31,7 @@
  <option value="Małopolskie"> Małopolskie </option>
  <option value="Mazowieckie"> Mazowieckie </option>
  <option value="Wielkopolskie"> Wielkopolskie </option>
- </select> </right>
+ </select> </div>
  </TD>
     <br><br><br>
     <b>2. Adres gmail</b> <input name="@gmail.com" size="22">                                                                    
