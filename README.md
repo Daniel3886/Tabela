@@ -1,2 +1,0 @@
-# Tabela
-zadanie 9 
